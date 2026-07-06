@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e ' *)",
+      "Bash(curl -s -A \"Mozilla/5.0\" -o /Users/nishikawamiyu/Desktop/ChuraChura0/public/images/kubazaki-hamaya.jpg \"https://churachuramaru.com/wp-content/uploads/2025/04/552267149885047129.jpg\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" \"http://localhost:3000/room/chura-chura%E3%80%82\")",
+      "Bash(curl -s \"http://localhost:3000/room/chura-chura%E3%80%82\")",
+      "Bash(npx vercel *)",
+      "Bash(gh auth *)"
+    ]
+  }
+}

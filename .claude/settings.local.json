@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000/price)",
+      "Bash(node -e \"console.log\\(require.resolve\\('puppeteer'\\)\\)\")",
+      "Bash(npx --yes playwright --version)",
+      "Bash(node screenshot3.mjs)"
+    ]
+  }
+}
