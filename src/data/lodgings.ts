@@ -35,7 +35,7 @@ export const lodgings: Lodging[] = [
     // 📷 【本館 トップ画像】ホームの「お部屋について」カード＆本館詳細ページのヒーロー
     //    おすすめ: 本館の外観・玄関まわり
     //    ファイルを public/images/ に入れたら下の行を有効にする
-    heroImage: "/images/chura-chura-hero.png",
+    heroImage: "/images/chura-chura-hero.PNG",
     description: [
       "小浜島の静かな集落の中にある、素泊まりの宿です。お部屋でのお食事のご準備はございません。",
       "朝・昼・夕食をご希望の場合は、予約時にお食事のご予約をお願いいたします（要予約）。",
