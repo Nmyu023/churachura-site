@@ -46,7 +46,7 @@ export default function Home() {
               href={`/room/${lodging.slug}`}
               className="group bg-white rounded-2xl shadow-md overflow-hidden border border-ocean/10 hover:shadow-xl transition-shadow"
             >
-              <div className="relative h-56">
+              <div className="relative aspect-[4/3] w-full">
                 {lodging.heroImage ? (
                   <Image
                     src={lodging.heroImage}

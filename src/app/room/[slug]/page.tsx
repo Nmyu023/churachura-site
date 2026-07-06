@@ -64,9 +64,9 @@ export default async function RoomDetailPage({
       >
         {lodging.facilities.map((facility) => (
           <div key={facility.title} className="bg-white rounded-2xl shadow-md overflow-hidden border border-ocean/10">
-            <div className="relative h-48 bg-sand/10">
+            <div className="relative aspect-[4/3] w-full">
               {facility.image ? (
-                <Image src={facility.image} alt={facility.title} fill className="object-contain" />
+                <Image src={facility.image} alt={facility.title} fill className="object-cover" />
               ) : (
                 <PlaceholderImage />
               )}
